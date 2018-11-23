@@ -1,0 +1,25 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.is-hidden {
+  display: none;
+}
+
+.canvasContainer {
+  position: relative;
+}
+
+.canvasContainer canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.canvasContainer img {
+  display: block;
+  width: 100%;
+}
